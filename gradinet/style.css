@@ -38,3 +38,41 @@ input[type="color"] {
     height: 45px;
     cursor: pointer;
 }
+
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 20px;
+    border: none;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.buttons button{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border: 2px solid #d5d5dc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rotate-icon i{
+    transform: rotate(45deg);
+}
+
+.buttons .active{
+    border: none;
+    background-color: #4a6ee0;
+    color: #fff;
+}
+
+#submit{
+    display: block;
+    background-color: #4a6ee0;
+    color: #fff;
+    font-size: 16px;
+}
